@@ -9,8 +9,8 @@
 #define SS_PIN 21
 #define RST_PIN 22
 
-const char* ssid = "ereccticotorra";
-const char* password = "xwuz5720";
+const char* ssid = "ssid"; //jangan lupa ganti nama wifi
+const char* password = "password"; //jangan lupa juga ganti password wifi
 
 MFRC522DriverPinSimple pinDriver(SS_PIN);
 MFRC522DriverSPI driver(pinDriver, SPI);
